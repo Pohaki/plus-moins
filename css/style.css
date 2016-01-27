@@ -1,0 +1,74 @@
+body{
+  margin: 0 auto;
+  background-color: #697F6C;
+}
+.container{
+  width:800px;
+  margin: 0 auto;
+}
+h1{
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin-top: 75px;
+  color: #FFFFFF;
+  font-size: 2em;
+  font-family: sans-serif;
+  background-color: #344036;
+}
+p{
+  font-family:sans-serif;
+  margin-bottom: 20px;
+  width: 500px;
+}
+p:first-child{
+  margin-top: 45px;
+}
+input{
+  width: 500px;
+  height: 90px;
+  margin-left: 150px;
+  font-size: 2em;
+  font-family: sans-serif;
+}
+button{
+  width: 250px;
+  height: 100px;
+  margin-top: 10px;
+  font-size: 3em;
+  margin-left: 285px;
+  color: #FFFFFF;
+  background-color: #344036;
+  border-radius: 5px;
+  border: 2px solid #697F6C;
+}
+.instruction{
+  width: 750px;
+  margin-left: 25px;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+.result{
+  font-family:sans-serif;
+  margin-bottom: 20px;
+  margin-left: 150px;
+}
+.chrono{
+  width: 800px;
+  color: #FFFFFF;
+  font-size: 3em;
+  font-family: sans-serif;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  text-align: center;
+}
+.ciao{
+  font-size: 3em;
+  text-align: center;
+}
+#score{
+  font-size: 1.5em;
+  text-align: center;
+}
