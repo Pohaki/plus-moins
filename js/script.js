@@ -16,7 +16,7 @@
       }
       // Sinon Guess est égale à answer retourne Vrai
       else {
-        return "Bravo tu as trouvé ! Petite Salope !";
+        return "Bravo tu as trouvé ! Tu es plus fort que mon procésseur ...";
       }
     }
   }
@@ -94,7 +94,7 @@ $(document).ready(function(){
                 $(".again").show("slow");
                 $(".play").hide("slow");
                 $(".ciao").remove();
-                $(".result").prepend("<p class='ciao'>"+ "La enfaite t'as perdu, retente ta chance" +"</p>")
+                $(".result").prepend("<p class='ciao'>"+ "Tu as perdu, tu peux retenter ta chance... Mais tu n'y arriveras pas :)" +"</p>")
 
               }
           }, 1000);
