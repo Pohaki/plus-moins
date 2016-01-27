@@ -60,7 +60,7 @@ $(document).ready(function(){
         $(".again").show("slow");
         $(".play").hide("slow");
         clearInterval(timer);
-        chrono = 60 - chrono;
+        chrono = 45 - chrono;
         $(".count").hide("slow");
         $(".result").prepend("<p id='score'>" +"Tu as trouver la réponse en "+ chrono +"s et "+ count + " tours !<p>").show()
       }
