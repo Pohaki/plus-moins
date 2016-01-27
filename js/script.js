@@ -16,7 +16,7 @@
       }
       // Sinon Guess est égale à answer retourne Vrai
       else {
-        return "Bravo tu as trouvé ! Petite Salope !";
+        return "Bravo tu as trouvé ! Tu es plus fort que mon procésseur ...";
       }
     }
   }
@@ -27,7 +27,7 @@ $(document).ready(function(){
   var result = g.answer;
   // initialisation du Compte à rebours
   var started = false;
-  var chrono = 60;
+  var chrono = 30;
   var timer;
   // initialisation Compteur de tours
   var count = 0;
@@ -60,7 +60,7 @@ $(document).ready(function(){
         $(".again").show("slow");
         $(".play").hide("slow");
         clearInterval(timer);
-        chrono = 60 - chrono;
+        chrono = 30 - chrono;
         $(".count").hide("slow");
         $(".result").prepend("<p id='score'>" +"Tu as trouver la réponse en "+ chrono +"s et "+ count + " tours !<p>").show()
       }
@@ -94,8 +94,7 @@ $(document).ready(function(){
                 $(".again").show("slow");
                 $(".play").hide("slow");
                 $(".ciao").remove();
-                $(".result").prepend("<p class='ciao'>"+ "La enfaite t'as perdu, retente ta chance" +"</p>")
-
+                $(".result").prepend("<p class='ciao'>"+ "Tu as perdu, tu peux retenter ta chance... Mais tu n'y arriveras pas :)" +"</p>")
               }
           }, 1000);
             // Started repasse à false pour éviter que l'interval n'auguemente à chaque clique
