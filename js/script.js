@@ -23,11 +23,11 @@
 
 $(document).ready(function(){
   // Appel de la Class Game et du resultat
-  var g = new Game(1000);
+  var g = new Game(10000);
   var result = g.answer;
   // initialisation du Compte à rebours
   var started = false;
-  var chrono = 60;
+  var chrono = 45;
   var timer;
   // initialisation Compteur de tours
   var count = 0;
